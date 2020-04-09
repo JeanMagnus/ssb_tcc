@@ -27,9 +27,14 @@ public class Inicializador extends Job {
 			bolsa2.save();
 			
 			Administrador adm = new Administrador();
-			adm.nome = "Aline";
-			adm.matricula= "20190001";
-			adm.senha = "aline2019";
+			adm.nome = "ADM-01";
+			adm.matricula= "202001";
+			adm.senha = "adm202001";
+			
+			Administrador adm2 = new Administrador();
+			adm2.nome = "ADM-02";
+			adm2.matricula = "202002";
+			adm2.senha = "adm202002";
 		}
 		
 		
