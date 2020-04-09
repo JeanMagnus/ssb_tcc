@@ -281,7 +281,7 @@ public class Sistema extends Controller {
 	public static Boolean certo = false;
 	public static void senhaSistema(String senhaSys) {
 		if(senhaSys.equals("tcc2019")) {
-			render("/Sistema/form_adm.html");
+			form_adm();
 			certo = true;
 		} else {
 			flash.error("*Senha incorreta!");
