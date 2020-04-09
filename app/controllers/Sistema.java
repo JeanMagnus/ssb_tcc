@@ -285,7 +285,7 @@ public class Sistema extends Controller {
 			certo = true;
 		} else {
 			flash.error("*Senha incorreta!");
-			Administradores.cadastroAdmin();
+			segurancaSistema();
 		}
 	}
 
