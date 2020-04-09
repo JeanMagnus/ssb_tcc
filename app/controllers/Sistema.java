@@ -44,9 +44,7 @@ public class Sistema extends Controller {
 		}
 	}
 	
-	public static void cadastroAdmin() {
-		render("/Administradores/cadastrar.html");
-	}
+ 	 
 	
 	public static void salvarAdm(Administrador adm) {
 		adm.save();

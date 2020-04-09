@@ -82,6 +82,9 @@ public class Administradores extends Controller{
 		render("Administradores/form.html", administrador);
 	}
 	
+	public static void cadastroAdmin() {
+		render("/Administradores/cadastrar.html");
+	}
 	
 	// METODOS PARA EXECUÇÃO DE ALUNOS
 	
