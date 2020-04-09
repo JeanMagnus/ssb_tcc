@@ -45,5 +45,10 @@
     }, 1000, 'easeInOutExpo');
     e.preventDefault();
   });
+  
+  // Material Select Initialization
+$(document).ready(function() {
+$('.mdb-select').materialSelect();
+});
 
 })(jQuery); // End of use strict
