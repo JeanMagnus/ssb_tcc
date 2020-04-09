@@ -278,11 +278,11 @@ public class Sistema extends Controller {
 	public static void segurancaSistema() {
 		render("Mensagens/senha-sistema.html");
 	}
-	//public static Boolean certo = false;
+	 public static Boolean certo = false;
 	public static void senhaSistema(String senhaSys) {
 		if(senhaSys.equals("tcc2019")) {
 			form_adm();
-		//	certo = true;
+		 	certo = true;
 		} else {
 			flash.error("*Senha incorreta!");
 			segurancaSistema();
