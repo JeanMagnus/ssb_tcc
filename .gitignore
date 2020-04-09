@@ -10,6 +10,7 @@ bin/
 /modules
 /project/project
 /project/target
+/precompiled
 /target
 tmp/
 test-result
